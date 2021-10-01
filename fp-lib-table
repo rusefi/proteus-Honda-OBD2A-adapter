@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "kicad6-libraries")(type "KiCad")(uri "${KIPRJMOD}/../kicad6-libraries")(options "")(descr ""))
+  (lib (name "hellen-one-wbo-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.2")(options "")(descr "Hellen-One WBO Module"))
+  (lib (name "hellen-one-can-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/can/0.1")(options "")(descr "Hellen-One CAN Module"))
+  (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/kicad/footprints")(options "")(descr "Hellen-One common library"))
+)
