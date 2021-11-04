@@ -55,7 +55,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|111025000|200650000|5c13ab06-ddda-4dee-8934-fb70929d5343|9fbb63ef-36ac-4035-9c73-b842d10a1a8d",
+        "silk_over_copper|111025000|200650000|9576b8f4-cc89-4355-9a9d-d89be1268ff2|9fbb63ef-36ac-4035-9c73-b842d10a1a8d",
+        "silk_over_copper|111925000|182600000|5c13ab06-ddda-4dee-8934-fb70929d5343|bd8b6d50-a012-47a7-8538-abdc098e966b",
+        "silk_over_copper|111925000|182600000|9576b8f4-cc89-4355-9a9d-d89be1268ff2|bd8b6d50-a012-47a7-8538-abdc098e966b",
+        "silk_over_copper|112925000|182600000|5c13ab06-ddda-4dee-8934-fb70929d5343|534ebafb-4495-40be-aefc-2f356a81b818",
+        "silk_over_copper|112925000|182600000|9576b8f4-cc89-4355-9a9d-d89be1268ff2|534ebafb-4495-40be-aefc-2f356a81b818",
+        "silk_over_copper|118525000|200650000|5c13ab06-ddda-4dee-8934-fb70929d5343|d7ff4229-4860-4dd5-b3c8-784db61a9b50",
+        "silk_over_copper|118525000|200650000|9576b8f4-cc89-4355-9a9d-d89be1268ff2|d7ff4229-4860-4dd5-b3c8-784db61a9b50",
+        "silk_over_copper|119325000|200650000|5c13ab06-ddda-4dee-8934-fb70929d5343|75fe8c57-d5af-4eca-8182-7694a3864554",
+        "silk_over_copper|119325000|200650000|9576b8f4-cc89-4355-9a9d-d89be1268ff2|75fe8c57-d5af-4eca-8182-7694a3864554",
+        "silk_over_copper|120125000|200650000|5c13ab06-ddda-4dee-8934-fb70929d5343|f10458c2-82ef-457d-862c-38f948fa5c8e",
+        "silk_over_copper|120125000|200650000|9576b8f4-cc89-4355-9a9d-d89be1268ff2|f10458c2-82ef-457d-862c-38f948fa5c8e",
+        "silk_over_copper|199650000|49823790|8afd243e-e199-44dc-8512-6a8817639a5d|051f6ef6-7927-4229-86f8-78e984f0daa1",
+        "silk_over_copper|65350000|49823790|1a7a11b5-2467-4974-8012-61fdbfe400f1|a1e1c529-3160-4b3f-8857-b569200f281e",
+        "silk_over_copper|86287501|207886667|51574163-1e1c-439c-a0cb-21ba612cbe35|7aa3764e-d286-4e7e-b107-45d4425af106",
+        "silk_over_copper|86437506|207711661|94034eba-6b73-4d91-95cc-4f33af0d0cd6|7aa3764e-d286-4e7e-b107-45d4425af106",
+        "silk_over_copper|96412498|207711661|94034eba-6b73-4d91-95cc-4f33af0d0cd6|a11c66e9-cb5d-4676-8648-851643306f9e",
+        "silk_over_copper|96912499|207711661|94034eba-6b73-4d91-95cc-4f33af0d0cd6|2ed7f396-224d-4d26-a5b0-41995882cff6"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -395,7 +414,7 @@
       "netlist": "hw48na.net",
       "specctra_dsn": "",
       "step": "",
-      "vrml": "gerber/hellen64_miataNA6_94.wrl"
+      "vrml": "proteusOBD2Ahonda/gerber/proteusOBD2Ahonda.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -434,7 +453,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "gerber/",
+    "plot_directory": "proteusOBD2Ahonda/gerber/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
